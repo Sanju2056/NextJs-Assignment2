@@ -57,7 +57,7 @@ const Done = () => {
                 {
                     DoneData.map((item, index) => {
                         return (
-                            <ToDoListCard item={item} id={index} />
+                            <ToDoListCard item={item} index={index} />
                         )
                     })
                 }

@@ -8,7 +8,7 @@ import TodoListData, { ToDoListData } from '../../../Constant/data'
 
 const ToDoListCard = ({item,index}) => {
     return (
-        <div className='h-[150px] w-[260px] rounded-md bg-[#211A75] flex flex-col items-center justify-center mb-4'>
+        <div className='h-[150px] w-[260px] rounded-md bg-[#211A75] flex flex-col items-center justify-center mb-4' key={item.index}>
             <div className='flex items-center w-[85%] mb-2 h-[20px] justify-between'>
                 <div className='flex items-center'>
                     <div className='h-[10px] w-[10px] rounded-full bg-[yellow] mx-2'></div>
@@ -59,7 +59,7 @@ const ToDoList = () => {
 {
     ToDoListData.map((item,index)=>{
         return(
-            <ToDoListCard  item={item} id={index}/>
+            <ToDoListCard  item={item} index={index}/>
         )
     })
 }
