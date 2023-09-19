@@ -35,7 +35,7 @@ const SideBar = () => {
       {
         SideBarData.map((item, index) => {
           return (
-            <SideBarCard item={item} index={index} />
+            <SideBarCard item={item}  key={index} />
           )
         })
       }
