@@ -2,7 +2,7 @@ import React from 'react'
 import search from '../../../Images/search.png'
 import Image from 'next/image'
 import folder from '../../../Images/folder.png'
-import check from '../../../Images/check.png'
+import check from '../../../public/Images/check.png'
 import activity from '../../../Images/Activities.png'
 import notification from '../../../Images/notification.png'
 import usa from '../../../Images/united-states.png'
@@ -14,7 +14,7 @@ const Header = () => {
       <div className='h-[40px] w-[320px] rounded-2xl flex overflow-hidden bg-[#211A75]  cursor-pointer'>
         <Image
           src={search}
-          className='h-[15px] w-[15px]  mt-3  mx-5'
+          className='h-[13px] w-[13px]  mt-3.5  mx-5'
         />
         <input placeholder='Search here' className='h-[100%] w-[95%] border-none text-[12px] bg-[#211A75] text-[#AAAAAA] outline-0' />
       </div>

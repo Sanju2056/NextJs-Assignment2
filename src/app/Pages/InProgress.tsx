@@ -23,10 +23,10 @@ const ToDoListCard = ({ item, index }) => {
                 </p>
             </div>
             <div className='h-[6px] w-[80%] bg-[#000] my-2'></div>
-            <div className='flex'>
-                <div className='flex'>
-                    <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center '></div>
-                    <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center '></div>
+            <div className='flex justify-between w-[80%]'>
+                <div className='flex relative'>
+                    <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center border-2 border-[#000]'></div>
+                    <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute border-2 border-[#000] left-5'></div>
                 </div>
                 <div className='flex items-center'>
                     <Image

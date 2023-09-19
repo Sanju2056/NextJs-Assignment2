@@ -1,8 +1,44 @@
 
- const data = [
+ const SideBarData = [
     {
         title:"Dashboard",
-        icon:'./Images/calendar-silhouette.png'
+        icon:'/Images/dashboard.png'
+    },
+    {
+        title:"Email",
+        icon:'/Images/email.png'
+    },
+    {
+        title:"Chat",
+        icon:'/Images/comment.png'
+    },
+    {
+        title:"Kanban",
+        icon:'/Images/thumbnail.png'
+    },
+    {
+        title:"Contact",
+        icon:'/Images/contact.png'
+    },
+    {
+        title:"Calender",
+        icon:'/Images/calendar-silhouette.png'
+    },
+    {
+        title:"Course",
+        icon:'/Images/invoice1.png'
+    },
+    {
+        title:"Shop",
+        icon:'/Images/online-shopping.png'
+    },
+    {
+        title:"Invoices",
+        icon:'/Images/invoice2.png'
+    },
+    {
+        title:"Settings",
+        icon:'/Images/setting.png'
     }
 ]
 const ToDoListData = [
@@ -45,4 +81,4 @@ const DoneData = [
     }
 ]
 
-export  {data,ToDoListData,DoneData,InProgressData};
+export  {SideBarData,ToDoListData,DoneData,InProgressData};

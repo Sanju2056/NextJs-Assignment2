@@ -11,7 +11,7 @@ import Done from './Done'
 import addIcon from '../../../Images/add.png'
 const Body = () => {
   return (
-    <div className='h-[100%] w-[100%] bg-[#0D0B21] flex items-center flex-col '>
+    <div className='h-[calc(100%-80px)] w-[100%] bg-[#0D0B21] flex items-center flex-col '>
       <div className='bg-[#15132B] h-[150px] w-[94%] rounded flex flex-col my-8 justify-center '>
         <div className='flex justify-between px-5'>
           <div className='flex'>
@@ -39,35 +39,35 @@ const Body = () => {
             />
           </div>
         </div>
-        <div className='flex justify-between w-[98%] '>
-          <div className='flex w-[80%] '>
+        <div className='flex justify-between w-[100%] '>
+          <div className='flex w-[60%] '>
             <div className='flex ml-14 relative w-[20%]'>
-              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center border border-[#000]'></div>
-              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-5'></div>
-              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-5'></div>
-              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center  '></div>
-              <div className='bg-[#E328AF] h-[32px] w-[32px] rounded-full flex items-center justify-center '><p className='text-[#fff] text-[10px]'>5+</p></div>
+              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center border-2 border-[#000]'></div>
+              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-4 border-2 border-[#000]'></div>
+              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-8 border-2 border-[#000]'></div>
+              <div className='bg-[#C4C4C4] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-12 border-2 border-[#000] '></div>
+              <div className='bg-[#E328AF] h-[32px] w-[32px] rounded-full flex items-center justify-center absolute left-16 border-2 border-[#000]'><p className='text-[#fff] text-[10px]'>5+</p></div>
             </div>
-            <div className='flex items-center w-[35%] justify-between'>
-              <div className='bg-[#6418C3] flex w-max px-2 items-center rounded-xl h-[30px]'>
+            <div className='flex items-center w-[50%] justify-between'>
+              <div className='bg-[#6418C3] flex w-max px-3 items-center rounded-xl h-[30px]'>
                 <Image
                   src={newFriend}
-                  className='h-[15px] w-[15px] mr-2'
+                  className='h-[13px] w-[13px] mr-2'
                 />
-                <p className='text-[#fff] text-[10px] font-bold'>Invite People</p>
+                <p className='text-[#fff] text-[9px] font-bold'>Invite People</p>
               </div>
-              <div className='flex h-[30px] px-2 w-max border border-[#7879F1] items-center rounded-xl'>
+              <div className='flex h-[30px] px-3 w-max border border-[#7879F1] items-center rounded-xl'>
                 <p className='text-[#fff] text-[10px] font-bold'>Private</p>
               </div>
-              <div className='bg-[#7879F1] h-[30px] px-2 rounded-xl w-[50px] justify-center items-center flex'>
+              <div className='bg-[#7879F1] h-[30px] px-3 rounded-xl w-[50px] justify-center items-center flex'>
                 <p className='text-[#fff] text-[10px] font-bold'>Edit</p>
               </div>
-              <div className='flex h-[30px] px-2 w-max border border-[#7879F1] items-center rounded-xl'>
+              <div className='flex h-[30px] px-3 w-max border border-[#7879F1] items-center rounded-xl'>
                 <Image
                   src={chat}
-                  className='h-[15px] w-[15px]'
+                  className='h-[13px] w-[13px] mr-2'
                 />
-                <p className='text-[#fff] text-[10px] font-bold'>45 Comments</p>
+                <p className='text-[#fff] text-[9px] font-bold'>45 Comments</p>
               </div>
             </div>
           </div>
