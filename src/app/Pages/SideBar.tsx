@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import menuIcon from '../../../Images/hamburgermenu.png'
-import banner from '../../../Images/banner.png'
+import menuIcon from '../../../public/Images/hamburgermenu.png'
+import banner from '../../../public/Images/banner.png'
 import { SideBarData } from '../../../Constant/data'
 
 

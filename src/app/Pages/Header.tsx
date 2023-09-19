@@ -1,12 +1,12 @@
 import React from 'react'
-import search from '../../../Images/search.png'
+import search from '../../../public/Images/search.png'
 import Image from 'next/image'
-import folder from '../../../Images/folder.png'
+import folder from '../../../public/Images/folder.png'
 import check from '../../../public/Images/check.png'
-import activity from '../../../Images/Activities.png'
-import notification from '../../../Images/notification.png'
-import usa from '../../../Images/united-states.png'
-import arrow from '../../../Images/arrow.png'
+import activity from '../../../public/Images/Activities.png'
+import notification from '../../../public/Images/notification.png'
+import usa from '../../../public/Images/united-states.png'
+import arrow from '../../../public/Images/arrow.png'
 
 const Header = () => {
   return (

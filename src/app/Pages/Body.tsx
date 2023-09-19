@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import vector from '../../../Images/Vector.png'
-import CompanyLogo from '../../../Images/companyLogo.png'
-import vectorIcon from '../../../Images/vertIcon.png'
-import newFriend from '../../../Images/add-friend.png'
-import chat from '../../../Images/chat.png'
+import vector from '../../../public/Images/Vector.png'
+import CompanyLogo from '../../../public/Images/companyLogo.png'
+import vectorIcon from '../../../public/Images/vertIcon.png'
+import newFriend from '../../../public/Images/add-friend.png'
+import chat from '../../../public/Images/chat.png'
 import ToDoList from './ToDoList'
 import InProgress from './InProgress'
 import Done from './Done'
-import addIcon from '../../../Images/add.png'
+import addIcon from '../../../public/Images/add.png'
 const Body = () => {
   return (
     <div className='h-[calc(100%-80px)] w-[100%] bg-[#0D0B21] flex items-center flex-col '>

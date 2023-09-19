@@ -1,8 +1,8 @@
 import React from 'react'
-import addIcon from '../../../Images/add.png'
+import addIcon from '../../../public/Images/add.png'
 import Image from 'next/image'
-import vectorIcon from '../../../Images/icVert.png'
-import clock from '../../../Images/clock.png'
+import vectorIcon from '../../../public/Images/icVert.png'
+import clock from '../../../public/Images/clock.png'
 import TodoListData, { ToDoListData } from '../../../Constant/data'
 
 
