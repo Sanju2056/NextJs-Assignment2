@@ -16,6 +16,7 @@ const Body = () => {
         <div className='flex justify-between px-5'>
           <div className='flex'>
             <Image
+            alt='image'
               src={vector}
               className='h-[20px] w-[20px] mr-4'
             />
@@ -30,10 +31,12 @@ const Body = () => {
               <p className='text-[10px] text-[#7879F1] my-1'>Sunnywale,Ca</p>
             </div>
             <Image
+              alt='image'
               src={CompanyLogo}
               className='h-[40px] w-[40px] cursor-pointer mr-3'
             />
             <Image
+              alt='image'
               src={vectorIcon}
               className='h-[18px] w-[18px] cursor-pointer'
             />
@@ -51,6 +54,7 @@ const Body = () => {
             <div className='flex items-center w-[50%] justify-between'>
               <div className='bg-[#6418C3] flex w-max px-3 items-center rounded-xl h-[30px]'>
                 <Image
+                  alt='image'
                   src={newFriend}
                   className='h-[13px] w-[13px] mr-2'
                 />
@@ -64,6 +68,7 @@ const Body = () => {
               </div>
               <div className='flex h-[30px] px-3 w-max border border-[#7879F1] items-center rounded-xl'>
                 <Image
+                  alt='image'
                   src={chat}
                   className='h-[13px] w-[13px] mr-2'
                 />
@@ -89,6 +94,7 @@ const Body = () => {
             <p className='text-[#fff] font-bold text-[12px]'>Revised(0)</p>
             <div className='h-[30px] w-[30px] bg-[#6418C3] rounded-lg flex items-center justify-center opacity-50'>
               <Image
+                alt='image'
                 src={addIcon}
                 className='h-[12px] w-[12px]'
               />

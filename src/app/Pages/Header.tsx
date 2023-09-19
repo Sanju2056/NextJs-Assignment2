@@ -13,6 +13,7 @@ const Header = () => {
     <div className='h-[80px] flex items-center w-[100%] justify-around bg-[#15132B] '>
       <div className='h-[40px] w-[320px] rounded-2xl flex overflow-hidden bg-[#211A75]  cursor-pointer'>
         <Image
+        alt='image'
           src={search}
           className='h-[13px] w-[13px]  mt-3.5  mx-5'
         />
@@ -21,29 +22,35 @@ const Header = () => {
       <p className='text-[10px] font-bold text-[#6418C3] underline decoration-1'>OTHER MENU</p>
       <div className='flex cursor-pointer'>
         <Image
-          src={folder}
+ alt='image'
+src={folder}
           className='h-[50px] w-[50px]'
         />
         <Image
+         alt='image'
           src={activity}
           className='h-[50px] w-[50px]'
         />
         <Image
+         alt='image'
           src={notification}
           className='h-[50px] w-[50px]'
         />
         <Image
+         alt='image'
           src={check}
           className='h-[50px] w-[50px]'
         />
       </div>
       <div className='h-[40px] w-[120px] flex items-center bg-[#211A75] rounded-3xl cursor-pointer'>
         <Image
+         alt='image'
           src={usa}
           className='h-[20px] w-[20px] mx-3'
         />
         <p className='text-[9px] font-bold text-[#fff] mr-3'>ENGLISH</p>
         <Image
+         alt='image'
           src={arrow}
           className='h-[7px] w-[7px]'
         />
@@ -55,6 +62,7 @@ const Header = () => {
           <p className='text-[10px] text-[#7879F1]'>Super Admin</p>
         </div>
         <Image
+         alt='image'
           src={arrow}
           className='h-[7px] w-[7px] cursor-pointer'
         />

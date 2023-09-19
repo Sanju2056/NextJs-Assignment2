@@ -5,7 +5,7 @@ import banner from '../../../public/Images/banner.png'
 import { SideBarData } from '../../../Constant/data'
 
 
-const SideBarCard = ({ item, index }) => {
+const SideBarCard = ({ item, index }:any) => {
   return (
     <div className='flex justify-start h-[55px] cursor-pointer w-[60%] '>
       <Image

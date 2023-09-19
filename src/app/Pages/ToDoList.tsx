@@ -3,10 +3,10 @@ import addIcon from '../../../public/Images/add.png'
 import Image from 'next/image'
 import vectorIcon from '../../../public/Images/icVert.png'
 import clock from '../../../public/Images/clock.png'
-import TodoListData, { ToDoListData } from '../../../Constant/data'
+import  { ToDoListData } from '../../../Constant/data'
 
 
-const ToDoListCard = ({item,index}) => {
+const ToDoListCard = ({item,index}:any) => {
     return (
         <div className='h-[150px] w-[260px] rounded-md bg-[#211A75] flex flex-col items-center justify-center mb-4' key={item.index}>
             <div className='flex items-center w-[85%] mb-2 h-[20px] justify-between'>
@@ -15,6 +15,7 @@ const ToDoListCard = ({item,index}) => {
                     <p className='text-[#fff] text-[12px] font-semibold'>{item.title}</p>
                 </div>
                 <Image
+                alt='image'
                     src={vectorIcon}
                     className='h-[15px] w-[15px]'
                 />
@@ -32,6 +33,7 @@ const ToDoListCard = ({item,index}) => {
                 </div>
                 <div className='flex items-center'>
                     <Image
+                      alt='image'
                         src={clock}
                         className='h-[14px] w-[14px] mx-2'
                     />
@@ -51,6 +53,7 @@ const ToDoList = () => {
                     <p className='text-[#fff] font-bold text-[12px]'>To Do ToDoList(24)</p>
                     <div className='h-[30px] w-[30px] bg-[#6418C3] rounded-lg flex items-center justify-center '>
                         <Image
+                          alt='image'
                             src={addIcon}
                             className='h-[12px] w-[12px]'
                         />
