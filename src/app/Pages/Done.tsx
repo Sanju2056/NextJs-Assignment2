@@ -48,7 +48,7 @@ const Done = () => {
         <div>
             <div className='flex flex-col items-center'>
                 <div className='flex h-[60px] items-center justify-between w-[220px]' >
-                    <p className='text-[#fff] font-bold text-[12px]'>To Do ToDoList(24)</p>
+                    <p className='text-[#fff] font-bold text-[12px]'>Done(3)</p>
                     <div className='h-[30px] w-[30px] bg-[#6418C3] rounded-lg flex items-center justify-center opacity-50'>
                         <Image
                           alt='image'
